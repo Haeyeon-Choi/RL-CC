@@ -1,6 +1,6 @@
 <div align="center"> 
 
-  # Materials Discovery with Extreme properties via AI-Driven Combinatorial Chemistry
+  # Materials Discovery with Extreme Properties via AI-Driven Combinatorial Chemistry
 
 </div>
 
