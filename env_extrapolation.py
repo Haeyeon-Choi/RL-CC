@@ -1,5 +1,5 @@
 filename = 'Point1'
-path = '/home/cysdh02/PycharmProjects/AID-CC'
+path = '/home/cysdh02/PycharmProjects/AID-CC' # path to AID-CC github file
 
 # Define target properties of the experiment
 target_logP = 13.6112
