@@ -1,5 +1,5 @@
 filename = 'Point1'
-path = '/home/cysdh02/PycharmProjects/AID-CC' # path to AID-CC github file
+path = '' # path to AID-CC github file
 
 # Define target properties of the experiment
 target_logP = 13.6112
@@ -30,7 +30,7 @@ with open(qsar_model_name, "rb") as file:
 
 
 train_smiles = []
-fragment_path = path + "/evaluate/data/fragment/chembl_save_data.pkl"
+fragment_path = path + "/data/fragment/chembl_save_data.pkl"
 with open(fragment_path, 'rb') as f:
 	data = pickle.load(f)
 	data_2 = data['fragment_counts']
