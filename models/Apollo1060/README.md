@@ -1,4 +1,4 @@
-models/Appllo1060 are QSAR models for predicting pIC50 of HIV inhibitors.
+models/Appllo1060 are QSAR models for predicting pIC<sub>50</sub> of HIV inhibitors.
 
 It should be noted that models/Appllo1060 were borrowed from:
 https://github.com/99andBeyond/Apollo1060
