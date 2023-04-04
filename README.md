@@ -19,6 +19,5 @@ If you find this code or idea useful, please consider citing our paper:
 ```
 
 
-html files in **result/extrapolation** were generated with ploty, a tool for generating user interactive graph.
-# You can see the results of materials extrapolation to hit multiple extreme target properties with the user interactive graph.
+html files in **result/extrapolation** were generated with ploty, a tool for generating user interactive graph.  You can see the results of materials extrapolation to hit multiple extreme target properties with the user interactive graph.
 <img src = "plotly_example.gif" width="100%">  
