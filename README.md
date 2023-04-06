@@ -19,7 +19,7 @@ If you find this code or idea useful, please consider citing our paper (arXiv pr
 ```
 
   ## Visualization of results: interative plot (plotly)
-html files in **result/extrapolation** were generated with ploty, a tool for generating user interactive graph.
+html files in **result/extrapolation** were visualized with ploty, a tool for generating user interactive graph.
   You can see the results of materials extrapolation to hit multiple extreme target properties (**Fig. 3** in the manuscript) with the user interactive graph.
 <img src = "plotly_example.gif" width="100%">  
 
