@@ -26,9 +26,15 @@ html files in **result/extrapolation** were generated with ploty, a tool for gen
   ## Implimentation
 ### Hit ot multiple targets:
   python evaluate_extrapolation.py data/checkpoints/extrapolation/checkpoint-750-1 --run PPO --env DrugDiscoveryEnv --episodes 1000
-
+  python evaluate_extrapolation.py data/checkpoints/extrapolation/checkpoint-750-2 --run PPO --env DrugDiscoveryEnv --episodes 1000
+  python evaluate_extrapolation.py data/checkpoints/extrapolation/checkpoint-750-3 --run PPO --env DrugDiscoveryEnv --episodes 1000
+  ...
+  python evaluate_extrapolation.py data/checkpoints/extrapolation/checkpoint-750-10 --run PPO --env DrugDiscoveryEnv --episodes 1000
+  
 ### Docking:
   python evaluate_docking.py data/checkpoints/docking/checkpoint-80 --run PPO --env DrugDiscoveryEnv --episodes 1000
   
 ### HIV:
   python evaluate_HIV.py data/checkpoints/HIV/checkpoint-250-ccr5 --run PPO --env DrugDiscoveryEnv --episodes 1000
+  python evaluate_HIV.py data/checkpoints/HIV/checkpoint-250-int --run PPO --env DrugDiscoveryEnv --episodes 1000
+    python evaluate_HIV.py data/checkpoints/HIV/checkpoint-250-rt --run PPO --env DrugDiscoveryEnv --episodes 1000
