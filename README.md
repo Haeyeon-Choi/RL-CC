@@ -31,7 +31,7 @@ html files in **result/extrapolation** were visualized with ploty, a tool for ge
   ...  
   python inference_extrapolation.py data/checkpoints/extrapolation/checkpoint-750-10 --run PPO --env DrugDiscoveryEnv --episodes 1000  
   
-### Application to the discovery of protein docking materials; 5-HT<sub>1B</sub>:
+### Application to the discovery of protein docking materials; 5-HT<sub>1B</sub> receptor:
   python inference_docking.py data/checkpoints/docking/checkpoint-80 --run PPO --env DrugDiscoveryEnv --episodes 1000
   
 ### HIV to three targets; CCR5, INT, and RT:
