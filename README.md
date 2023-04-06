@@ -24,14 +24,14 @@ html files in **result/extrapolation** were visualized with ploty, a tool for ge
 <img src = "plotly_example.gif" width="100%">  
 
   ## Commands for code implimentation
-### Hit to multiple targets C1 to C10:
+### Materials extrapolation to hit multiple extreme targets properties; targets C1 to C10:
   python inference_extrapolation.py data/checkpoints/extrapolation/checkpoint-750-1 --run PPO --env DrugDiscoveryEnv --episodes 1000  
   python inference_extrapolation.py data/checkpoints/extrapolation/checkpoint-750-2 --run PPO --env DrugDiscoveryEnv --episodes 1000  
   python inference_extrapolation.py data/checkpoints/extrapolation/checkpoint-750-3 --run PPO --env DrugDiscoveryEnv --episodes 1000  
   ...  
   python inference_extrapolation.py data/checkpoints/extrapolation/checkpoint-750-10 --run PPO --env DrugDiscoveryEnv --episodes 1000  
   
-### Docking:
+### Application to the discovery of protein docking materials; 5-HT<sub>1B<sub>:
   python inference_docking.py data/checkpoints/docking/checkpoint-80 --run PPO --env DrugDiscoveryEnv --episodes 1000
   
 ### HIV to three targets; CCR5, INT, and RT:
