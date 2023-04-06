@@ -23,7 +23,7 @@ html files in **result/extrapolation** were visualized with ploty, a tool for ge
   You can see the results of materials extrapolation to hit multiple extreme target properties (**Fig. 3** in the manuscript) with the user interactive graph.
 <img src = "plotly_example.gif" width="100%">  
 
-  ## Commands for Implimentation
+  ## Commands for code implimentation
 ### Hit ot multiple targets C1 to C10:
   python inference_extrapolation.py data/checkpoints/extrapolation/checkpoint-750-1 --run PPO --env DrugDiscoveryEnv --episodes 1000  
   python inference_extrapolation.py data/checkpoints/extrapolation/checkpoint-750-2 --run PPO --env DrugDiscoveryEnv --episodes 1000  
