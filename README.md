@@ -7,7 +7,7 @@
 
 This repository is the implementation code for [Materials Discovery with Extreme Properties via AI-Driven Combinatorial Chemistry](https://arxiv.org/abs/2303.11833)
 
-If you find this code or idea useful, please consider citing our paper:
+If you find this code or idea useful, please consider citing our paper (arXiv preprint):
 
 ```bibtex
 @article{kim2023materials,
