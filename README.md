@@ -24,11 +24,11 @@ html files in **result/extrapolation** were generated with ploty, a tool for gen
 <img src = "plotly_example.gif" width="100%">  
 
   ## Implimentation
-Hit ot multiple targets:
+### Hit ot multiple targets:
   python evaluate_extrapolation.py data/checkpoints/extrapolation/checkpoint-750-1 --run PPO --env DrugDiscoveryEnv --episodes 1000
 
-Docking:
+### Docking:
   python evaluate_docking.py data/checkpoints/docking/checkpoint-80 --run PPO --env DrugDiscoveryEnv --episodes 1000
   
-HIV:
+### HIV:
   python evaluate_HIV.py data/checkpoints/HIV/checkpoint-250-ccr5 --run PPO --env DrugDiscoveryEnv --episodes 1000
