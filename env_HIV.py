@@ -21,7 +21,7 @@ from models.Apollo1060.pipeliner_light.smol import SMol
 
 
 train_smiles = []
-fragment_path = path + "/evaluate/data/fragment/chembl_save_data.pkl"
+fragment_path = path + "/data/fragment/chembl_save_data.pkl"
 with open(fragment_path, 'rb') as f:
 	data = pickle.load(f)
 	data_2 = data['fragment_counts']
