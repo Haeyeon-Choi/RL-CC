@@ -1,5 +1,5 @@
 filename = 'HIV_CCR5'
-path = '/home/cysdh02/PycharmProjects/AID-CC'
+path = ''
 import gym
 from gym import spaces
 from gym.utils import seeding
