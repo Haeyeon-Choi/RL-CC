@@ -22,7 +22,7 @@ from openbabel import pybel
 import time
 
 train_smiles = []
-fragment_path = "/home/cysdh02/PycharmProjects/AID-CC/evaluate/data/fragment/chembl_save_data.pkl"
+fragment_path = "/data/fragment/chembl_save_data.pkl"
 with open(fragment_path, 'rb') as f:
 	data = pickle.load(f)
 	data_2 = data['fragment_counts']
