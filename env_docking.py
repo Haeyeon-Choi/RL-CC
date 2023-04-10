@@ -70,6 +70,7 @@ for i in train_smiles:
                 fragment_rule[k-1].append(train_smiles.index(i))
 
 
+# CombinatorialGenerator was coded by referring to the following code: https://github.com/molecularsets/moses/blob/master/moses/baselines/combinatorial.py		
 class CombinatorialGenerator:
     def __init__(self, n_jobs=1):
         self.n_jobs = n_jobs
