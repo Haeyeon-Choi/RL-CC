@@ -19,7 +19,7 @@ If you find this code or idea useful, please consider citing our paper (arXiv pr
 ```
 
   ## Visualization of results: interactive plot (plotly)
-html files in **result/extrapolation** were visualized with ploty, a tool for generating user interactive graph. You can see the results of materials extrapolation to hit multiple extreme target properties (**Fig. 3** in the manuscript) with the user interactive graph.  
+html files in **result/extrapolation** were visualized with ploty which is a tool for generating user interactive graph. You can see the results of materials extrapolation to hit multiple extreme target properties (**Fig. 3** in the manuscript) with the user interactive graph.  
 The following gif example of parallel cooridates plot shows the results of generated molecules. The vertical magenta lines indicate constraints. Each horizontal line indicate a set of properties of a generated molecule and it is colored by score if it meets the all constraints simultaneously. pRMSE = 1 is a target bound for each property.
 <img src = "plotly_example.gif" width="100%">
 |Target_ID|logP     |TPSA   |QED        |HBA|HBD|MW         |DRD2       |Ref_SMILES                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
