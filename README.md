@@ -1,7 +1,6 @@
 <div align="center"> 
-
-  # Under Construction
-  # Materials Discovery with Extreme Properties via RL-Driven Combinatorial Chemistry
+  
+  # Materials discovery with extreme properties via reinforcement learning-guided combinatorial chemistry
 
 </div>
 
