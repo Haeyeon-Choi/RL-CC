@@ -5,16 +5,17 @@
 
 </div>
 
-This repository is the implementation code for [Materials Discovery with Extreme Properties via RL-Driven Combinatorial Chemistry](https://arxiv.org/abs/2303.11833)
+This repository is the implementation code for [Materials discovery with extreme properties via reinforcement learning-guided combinatorial chemistry](https://doi.org/10.1039/D3SC05281H)
 
-If you find this code or idea useful, please consider citing our paper (arXiv preprint):
+If you find this code or idea useful, please consider citing our paper:
 
 ```bibtex
-@article{kim2023materials,
-  title={Materials Discovery with Extreme Properties via AI-Driven Combinatorial Chemistry},
+@article{kim2024materials,
+  title={Materials Discovery with Extreme Properties via Reinforcement Learning-Guided Combinatorial Chemistry},
   author={Kim, Hyunseung and Choi, Haeyeon and Kang, Dongju and Lee, Won Bo and Na, Jonggeol},
-  journal={arXiv preprint arXiv:2303.11833},
-  year={2023}
+  journal={Chemical Science},
+  year={2024},
+  publisher={Royal Society of Chemistry}
 }
 ```
 
